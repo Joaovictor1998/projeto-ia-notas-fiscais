@@ -45,7 +45,7 @@ def processar_notas_zip(caminho_zip):
 
 # --- EXECUÇÃO E SERIALIZAÇÃO ---
 
-arquivo_zip = 'dados/NotaFiscaldeServiçoEletrônicaNFSe_de_181_ate_246.zip'
+arquivo_zip = ''
 df_notas = processar_notas_zip(arquivo_zip)
 
 if not df_notas.empty:
