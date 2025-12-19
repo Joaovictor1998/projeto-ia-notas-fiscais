@@ -7,7 +7,7 @@ import joblib
 st.set_page_config(page_title="Dashboard de Notas Fiscais", layout="wide")
 
 st.title("📊 Gestão Financeira Jra Sistema de Incêndio.")
-st.markdown("JRA SISTEMA DE INCÊNDIO.")
+st.markdown("Dashboard de Notas Fiscais.")
 
 def check_password():
     """Retorna True se o usuário inseriu a senha correta."""
