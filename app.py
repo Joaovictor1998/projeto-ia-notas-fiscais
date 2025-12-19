@@ -6,7 +6,7 @@ import joblib
 
 st.set_page_config(page_title="Dashboard de Notas Fiscais", layout="wide")
 
-st.title("📊 Gestão.")
+st.title("📊 Gestão Financeiro.")
 st.markdown("Dashboard de Notas Fiscais.")
 
 def check_password():
