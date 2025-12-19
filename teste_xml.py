@@ -1,7 +1,7 @@
 import zipfile
 import xml.etree.ElementTree as ET
 
-caminho_zip = 'dados/NotaFiscaldeServiçoEletrônicaNFSe_de_181_ate_246.zip'
+caminho_zip = ''
 
 with zipfile.ZipFile(caminho_zip, 'r') as z:
     primeiro_xml = [f for f in z.namelist() if f.endswith('.xml')][0]
